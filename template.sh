@@ -28,3 +28,10 @@ echo "# Version : v$ansVER"  >> /HTMLDigger/bash/$ansName
 echo "# *************************************************************" >> /HTMLDigger/bash/$ansName
 echo "# *************************************************************" >> /HTMLDigger/bash/$ansName
 
+# Change Permition 
+
+sudo chmod a+x $ansName
+
+
+
+
