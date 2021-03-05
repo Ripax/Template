@@ -26,8 +26,8 @@ yearp=$(date +"%Y")
 read -p "Script Name : " ansName
 read -p "Script Version : " ansVER
 read -p "Description : " des
-mkdir -p /$HOME/bash/
-touch /$HOME/bash/$ansName
+mkdir -p /$HOME/script/bash/bin
+touch /$HOME/script/bash/bin/$ansName
 echo "#! /bin/bash
 # :author                           : $USER
 # :support                          : $USER
@@ -57,6 +57,6 @@ nowdate='$(date +"%m-%d-%Y : %r")'
 banner
 echo -e "'"Todays Date : $nowdate"'"
 ##########################  YOUR SCRIPT START HERE ##########################
-" >> /$HOME/bash/$ansName
+" >> /$HOME/script/bash/bin/$ansName
 
 # Script END
